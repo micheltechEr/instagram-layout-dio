@@ -2,9 +2,56 @@
     padding: 0;
     margin: 0;
     border: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
   }
 
-.cell-phone-content{
-    background: url("../public/img/cell-phone1.png");
+  main {
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+
+.cell-phone-content {
+  background: url("../img//cellp.png") no-repeat;
+  background-attachment: fixed;
+  background-position: 0px 34px;
+  height: 620px;
+  width: 620px;
+}
+
+.login-section {
+  padding: 4%;
+  display: flex;
+  background: #FFF;
+  margin: 40px 0px 0px 0px;
+  border: 1px solid #d3d3d3;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-section img {
+  margin-bottom: 20%;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content input {
+  background: #fafafa;
+  border: 1px solid #d3d3d3;
+  padding: 17px;
+  border-radius: 2px;
+  width: 250px;
+  height: 20px;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 875px)
+{
+  .cell-phone-content{
+    display: none;
+  }
 }
